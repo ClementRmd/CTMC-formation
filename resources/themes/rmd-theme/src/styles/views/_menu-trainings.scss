@@ -1,0 +1,15 @@
+.menu-training {
+    ul {
+        .menu-training__item {
+            @apply mb-6;
+
+            &__div {
+                @apply flex justify-between font-primary text-gray-normal text-3xl border-b-4 border-blue-medium cursor-pointer;
+            }
+        }
+    }
+
+    .wysiwyg {
+        @apply py-10 border-none;
+    }
+}

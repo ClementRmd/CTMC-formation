@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fake-package">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/builder/vendor/pivvenit/acf-pro-installer/tests/integration/images/registry/fake-package.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,43 @@
+.blocContainer {
+    @apply relative max-w-7xl mx-auto px-12 pb-20 sm:px-0;
+}
+
+.btnActive {
+    @apply bg-blue-medium;
+
+    span {
+        @apply text-white;
+    }
+}
+
+.wysiwyg {
+    h2 {
+        @apply mb-1 text-blue-medium font-bold font-secondary;
+    }
+
+    ul {
+        @apply mb-1 list-disc list-inside;
+
+        li {
+            @apply mb-0 font-secondary;
+        }
+    }
+
+    p {
+        @apply mb-1 font-secondary text-black text-base;
+    }
+
+    strong {
+        @apply mb-1 font-secondary;
+    }
+
+    a {
+        @apply mb-1 text-blue-medium font-bold font-secondary;
+    }
+
+    figure {
+        display: flex !important;
+        justify-content: center;
+        padding: 40px 0;
+    }
+}
